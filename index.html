@@ -10,8 +10,7 @@
 <body>
 
     <!-- NAV -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm p-2 mb-5">
-    <!-- <img class="navbar-brand rounded" style="height: 70px;" src="./recursos/logo.jpg" alt="Jaledom"> -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm p-2 mb-5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
     <a class="navbar-brand" href="#">Inicio</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +38,7 @@
   <div class="container-fluid mt-5">
 
     <div class="pt-3 m-3 row text-center">
-        <h2 id="quiensoy">¿Quién soy?</h2>
+        <h2 id="quiensoy" class="display-5">¿Quién soy?</h2>
     </div>
     <div class="row">
         <div class="col d-none d-md-block m-5">
@@ -50,13 +49,15 @@
         
         <div class="col-1 bg-dark rounded d-none d-md-block" style="width: 10px;">  
         </div>
-        <div class="col d-flex align-items-center m-5">
+        <div class="col d-flex align-items-center m-5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
           <div>
             <h5>¡Hola! Soy José Manuel</h5>
           <p>
             Un junior recien titulado en el CFGS Desarrollo de aplicaciones web. Me encanta el Front-end pero he picoteado de todo en mi corta experiencia.
             Actualmente sigo formandome por mi cuenta en React y mejoro mi inglés para resultar más atractivo laboralmente.
           </p>
+          <a href="./assets/curriculum.pdf" download="curriculum.pdf"><button class="btn btn-dark"><i class="fas fa-file-pdf"></i>  Curriculum</button></a>
+
 
           <div class="pt-3">
             <h6>Me puedes encontrar por estos lugares</h6>
@@ -64,16 +65,17 @@
             <a href="https://www.linkedin.com/in/9jmad3/" target="blank" class="text-decoration-none text-dark"><i class="fab fa-linkedin fa-2x m-1"></i></a>
             <a href="https://github.com/9jmad3" target="blank" class="text-decoration-none text-dark"><i class="fab fa-github fa-2x m-1"></i></a>
           </div>
+          
           </div>
         </div>
     </div>
 
 
     <div class="mt-3 mb-1 row text-center">
-        <h2 id="queconozco">¿Qué conozco?</h2>
+        <h2 id="queconozco" class="display-5">¿Qué conozco?</h2>
     </div>
     <div class="row">
-        <div class="col p-4 d-flex align-items-center m-5">
+        <div class="col p-4 d-flex align-items-center m-5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
             <p>
               He desarrollado páginas web con Html, Css y Js, maquetado webs y proyectos de Angular 11 con bootstrap y
                desarrollado aplicaciones web con php puro y con Laravel todo ello dentro del CFGS de desarrollo  de aplicaciones web.
@@ -99,10 +101,10 @@
 
 
     <div id="quehehecho" class="p-5 row text-center text-white bg-dark">
-        <h2 class="pt-5">¿Qué he hecho?</h2>
-        <p>A continuación te expongo los proyectos que he llevado a cabo tanto dentro de mi CFGS Desarrollo de Aplicaciones Web como en las Prácticas de empresa del mismo.</p>
+        <h2 class="pt-5 display-5">¿Qué he hecho?</h2>
+        <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">A continuación te expongo los proyectos que he llevado a cabo tanto dentro de mi CFGS Desarrollo de Aplicaciones Web como en las Prácticas de empresa del mismo.</p>
     </div>
-    <div class="row pb-5 bg-dark">
+    <div class="row pb-5 bg-dark" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
 
         <div class="col p-2">
             <div class="card">
@@ -113,7 +115,7 @@
                     Lógica desarrollada con Php puro e interfaz de usuario maquetada con bootstrap.
                     Fué uno de los proyectos finales de CFGS DAW en el que se buscaba aprender más a fondo php.
                   </p>
-                  <a href="https://github.com/9jmad3/Gimnasio" target="blank" class="btn btn-primary">Ver en GitHub</a>
+                  <a href="https://github.com/9jmad3/Gimnasio" target="blank" class="btn btn-dark">Ver en GitHub</a>
                 </div>
               </div>
         </div>
@@ -127,7 +129,7 @@
                     Proyecto desarrollado en Angular 11. 
                     Fue uno de los proyectos finales del CFGS DAW en los que se buscaba afinzar conceptos de Js y en el cual daban libertad de elegir Angular si nos veiamos capaces.
                   </p>
-                  <a href="#!" class="btn btn-primary">Ver en GitHub</a>
+                  <a href="https://github.com/9jmad3/bingoangular11" target="blank" class="btn btn-dark">Ver en GitHub</a>
                 </div>
               </div>
         </div>
@@ -142,7 +144,7 @@
                     Fué el proyecto más amplio dentro del CFGS DAW.
                     Está desarrollado en Laravel y maquetado con bootstrap. Cuenta con llamadas a API externa, gestión de usuarios, roles...
                   </p>
-                  <a href="#!" class="btn btn-primary">Ver en GitHub</a>
+                  <a href="https://github.com/9jmad3/foroDAW" target="blank" class="btn btn-dark">Ver en GitHub</a>
                 </div>
               </div>
         </div>
@@ -155,9 +157,9 @@
                   <h4 class="card-title">GestCelt</h4>
                   <p class="card-text">
                     Proyecto final del CFGS DAW desarrollado en Angular 11y Nodejs.
-                    Debido a que fué un proyecto real para la empresa en la que hice las prácticas no puedo facilitar el codigo pero si quieres saber más sobre este proyecto entra en "detalles".
+                    Debido a que fué un proyecto real para la empresa en la que hice las prácticas no puedo facilitar el codigo pero si quieres saber más sobre este proyecto sigue leyendo.
                   </p>
-                  <a href="#!" class="btn btn-primary">Detalles</a>
+                  <a href="#!" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Detalles</a>
                 </div>
               </div>
         </div>
@@ -178,10 +180,10 @@
     </div>
 
     <div class="mt-3 mb-1 row text-center">
-        <h2 id="queheestudiado">¿Qué he estudado?</h2>
+        <h2 id="queheestudiado" class="display-5">¿Qué he estudado?</h2>
     </div>
-    <div class="row">
-        <div class="col d-flex justify-content-center m-3">
+    <div class="row" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <div class="col d-flex justify-content-center m-3 pt-5 pb-5">
           <div>
             <h4>ESTUDIOS REGLADOS</h4>
             <h6>CFGS de Desarrollo de aplicaciones web</h6>
@@ -205,7 +207,7 @@
         <div class="col-1 bg-dark" style="width: 10px; border-radius: 5px 5px 0px 0px;">  
         </div>
 
-        <div class="col d-flex justify-content-center m-3">
+        <div class="col d-flex justify-content-center m-3 pt-5 pb-5">
           <div>
             <h4>ESTUDIOS NO REGLADOS</h4>
             <h6>Udemy</h6>
@@ -237,7 +239,59 @@
   </footer>
 
 
+  <!-- Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">GestCelt</h5>
+        <button type="button" class="btn" data-dismiss="modal">X</button>
+      </div>
+      <div class="modal-body">
+        <p>
+          GestCelt es una aplicación de gestión interna. <br>
+          Front: Angular 11 <br>
+          Maquetación: AngularMaterial <br>
+          Back: NodeJs <br>
 
+          Cuenta con un sistema de login con opción a deshabilitar el inicio de sesion desde el panel de administración.
+        </p>
+        <img src="./assets/gestcelt/01.jpg" class="img-fluid" alt="">
+        
+        <p>
+          La aplicación es totalmente responsive y utiliza la biblioteca fullcalendar.
+        </p>
+        <img src="./assets/gestcelt/02.jpg" class="img-fluid" alt="">
+        
+        <p>
+          La aplicación puede gestionar todo el stock que entra y sale de la empresa como también el que se asigna a cada técnico.
+        </p>
+        <img src="./assets/gestcelt/03.jpg" class="img-fluid" alt="">
+        
+        <p>
+          Cuenta con diversas pantalla en las cuales ver facilmente que materiales existen y si hay o no stock de estos.
+        </p>
+        <img src="./assets/gestcelt/04.jpg" class="img-fluid" alt="">
+        
+        <p>
+          También se gestionan las ordenes de trabajo de todos los empleados que se encuentran en el sistema así como el stock usuario en esas ordenes.
+        </p>
+        <img src="./assets/gestcelt/05.jpg" class="img-fluid" alt="">
+        
+        <p>
+          Cuenta con distintos perfiles de usuario con sus respectivas restricciones.
+        </p>
+        <img src="./assets/gestcelt/055.jpg" class="img-fluid" alt="">
+        
+        <p>La aplicación está diseñada para poder usarse desde un móvil y que los trabajadores puedan por ejemplo, cerrar sus ordenes de trabajo rápidamente.</p>
+        <img src="./assets/gestcelt/06.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
