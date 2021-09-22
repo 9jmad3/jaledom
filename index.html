@@ -1,397 +1,473 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <title>Jaledom</title>
-</head>
-<body>
-
-    <!-- NAV -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm p-2 mb-5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-    <a class="navbar-brand" href="#">Inicio</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#quiensoy">Quién Soy</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#queconozco">Qué conozco</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#quehehecho">Qué he hecho</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#queheestudiado">Qué he estudiado</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#queexperiencia">Qué experiencia tengo</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#quefaltapordecir">Qué falta por decir</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-      
-  <div class="container-fluid mt-5">
-
-    <div class="pt-3 m-3 row text-center">
-        <h2 id="quiensoy" class="display-5">¿Quién soy?</h2>
-    </div>
-    <div class="row">
-        <div class="col d-none d-md-block m-5">
-          <div class="col d-flex align-items-center justify-content-center h-100">
-            <img src="./assets/selfie.jpeg" alt="Selfie del autor de la página" class="img-fluid rounded-circle shadow" style="height: 300px;">
-          </div>
-        </div>
-        
-        <div class="col-1 bg-dark rounded d-none d-md-block" style="width: 10px;">  
-        </div>
-
-        <div class="col d-flex align-items-center m-5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-          <div>
-            <h5>¡Hola! Soy José Manuel</h5>
-            <p>
-              Un junior recien titulado en el CFGS Desarrollo de aplicaciones web. Me encanta el Front-end porque es en lo que más he profundizado pero sigo profundizando en otros entornos.
-              Actualmente sigo formandome por mi cuenta en React y mejorando mi inglés.
-            </p>
-            <a href="./assets/Curriculum 2021.pdf" download="curriculum.pdf"><button class="btn btn-dark"><i class="fas fa-file-pdf"></i>  Curriculum</button></a>
-
-
-            <div class="pt-3">
-              <h6>Me puedes encontrar por estos lugares</h6>
-
-              <a href="https://www.linkedin.com/in/9jmad3/" target="blank" class="text-decoration-none text-dark"><i class="fab fa-linkedin fa-2x m-1"></i></a>
-              <a href="https://github.com/9jmad3" target="blank" class="text-decoration-none text-dark"><i class="fab fa-github fa-2x m-1"></i></a>
-          </div>
-          
-          </div>
-        </div>
-    </div>
-
-
-    <div class="mt-3 mb-1 row text-center">
-        <h2 id="queconozco" class="display-5">¿Qué conozco?</h2>
-    </div>
-    <div class="row">
-        <div class="col p-4 d-flex align-items-center m-5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-            <p>
-              He desarrollado páginas web con Html, Css y Js, maquetado webs y proyectos de Angular 11 con bootstrap y
-               desarrollado aplicaciones web con php puro y con Laravel, todo ello dentro del CFGS de desarrollo  de aplicaciones web.
-              <br>
-              Además, en las prácticas de empresa de dicha FP, desarrollé una aplicación de gestión de empleados, clientes, almacenes y demás apartados para la empresa usando Angular 11 para la parte front, Angular material para la maquetación de esta y Nodejs para la creación de una Api Rest.
-
-            </p>
-        </div>
-        <div class="col-1 bg-dark d-none d-lg-block" style="width: 10px; border-radius: 5px 5px 0px 0px;">  
-        </div>
-        <div class="col m-5 d-none d-lg-block p-4 d-flex flex-wrap align-items-center justify-content-between">
-            <img src="./assets/html.png" alt="" class="img-fluid p-1" style="object-fit: cover; height: 150px;">
-            <img src="./assets/CSS-Logo.png" alt="" class=" img-fluid p-1" style="object-fit: cover; height: 150px;">
-            <img src="./assets/JavaScript-logo.png" alt="" class="img-fluid p-1" style="object-fit: cover; height: 150px;">
-            <img src="./assets/bootstrap.png" alt="" class="img-fluid p-1" style="object-fit: cover; height: 150px;">
-            <img src="./assets/angular.png" alt="" class="img-fluid p-1" style="object-fit: cover; height: 150px;">
-            <img src="./assets/angularmaterial.png" alt="" class="img-fluid p-1" style="object-fit: cover; height: 150px;">
-            <img src="./assets/nodejs.png" alt="" class="img-fluid p-1" style="object-fit: cover; height: 150px;">
-            <img src="./assets/php.png" alt="" class="img-fluid p-1" style="object-fit: cover; height: 150px;">
-            <img src="./assets/laravel.png" alt="" class="img-fluid p-1" style="object-fit: cover; height: 150px;">
-        </div>
-    </div>
-
-
-    <div id="quehehecho" class="p-5 row text-center text-white bg-dark">
-        <h2 class="pt-5 display-5">¿Qué he hecho?</h2>
-        <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">A continuación te expongo los proyectos que he llevado a cabo tanto dentro de mi CFGS Desarrollo de Aplicaciones Web como en las Prácticas de empresa del mismo.</p>
-    </div>
-    <div class="row pb-5 bg-dark" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-
-        <div class="col-sm p-3">
-            <div class="card">
-                <img class="card-img-top" src="https://camo.githubusercontent.com/38ce96d4a10381e16a4cb8878eaf60c7057ec63cdf43052f94431e7f0ac2fb49/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f3170383068773535394b6d386670626353332f67697068792e676966" alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Gimnasio</h4>
-                  <p class="card-text">
-                    Lógica desarrollada con Php puro e interfaz de usuario maquetada con bootstrap.
-                    Fué uno de los proyectos finales de CFGS DAW en el que se buscaba aprender más a fondo php.
-                  </p>
-                  <a href="https://github.com/9jmad3/Gimnasio" target="blank" class="btn btn-dark">Ver en GitHub</a>
-                </div>
-              </div>
-        </div>
-
-        <div class="col-sm p-3">
-            <div class="card">
-                <img class="card-img-top" src="https://camo.githubusercontent.com/eb607d90a9391fdc22ed2be59e98c7ec9e3f5291e5b238e8416b1aa3fb2566c5/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f324e7575497a356d5356566c447432376c6a2f67697068792e676966" alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Bingo</h4>
-                  <p class="card-text">
-                    Proyecto desarrollado en Angular 11. 
-                    Fue uno de los proyectos finales del CFGS DAW en los que se buscaba afianzar conceptos de Js y en el cual daban libertad de elegir Angular si nos veiamos capaces.
-                  </p>
-                  <a href="https://github.com/9jmad3/bingoangular11" target="blank" class="btn btn-dark">Ver en GitHub</a>
-                </div>
-              </div>
-        </div>
-
-          
-        <div class="col-sm p-3">
-            <div class="card">
-                <img class="card-img-top" src="https://camo.githubusercontent.com/1cf4493be06276928bd6f0a4ce7f23549723b55b75aa077a684bcc55c99b2bc1/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f74527631487351383637727a764263324d6f2f67697068792e676966" alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Foro</h4>
-                  <p class="card-text">
-                    Fué el proyecto más amplio dentro del CFGS DAW.
-                    Está desarrollado en Laravel y maquetado con bootstrap. Cuenta con llamadas a API externa, gestión de usuarios, roles...
-                  </p>
-                  <a href="https://github.com/9jmad3/foroDAW" target="blank" class="btn btn-dark">Ver en GitHub</a>
-                </div>
-              </div>
-        </div>
-
-          
-        <div class="col-sm p-3">
-            <div class="card">
-                <img class="card-img-top" src="./assets/gestcelt.JPG" alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">GestCelt</h4>
-                  <p class="card-text">
-                    Proyecto final del CFGS DAW desarrollado en Angular 11 y Nodejs.
-                    Debido a que fué un proyecto real para la empresa en la que realicé las prácticas no puedo facilitar el codigo pero si quieres saber más sobre este proyecto sigue leyendo.
-                  </p>
-                  <a href="#!" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Detalles</a>
-                </div>
-              </div>
-        </div>
-
-        <div class="col-sm p-3">
-          <div class="card">
-              <img class="card-img-top" src="./assets/cryptoprecios.JPG" alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title">CryptoPrecio</h4>
-                <p class="card-text">
-                  App con precios actualizados de varias cryptos y que tiene como características: Petición Api, componentes angular material, responsive, bootstrap y desplegado en Heroku.
-                </p>
-                <div class="d-flex">
-                  <a href="https://github.com/9jmad3/cryptoPrecios" target="blank" class="btn btn-dark m-1">ver en GitHub</a>
-                  <a href="https://cryptoprecios.herokuapp.com/" target="blank" class="btn btn-dark m-1">Ver proyecto</a>
-                </div>
-              </div>
-            </div>
-      </div>
-          
-
-    </div>
-
-
-    <div class="row">
-        <div class="col d-flex align-items-center justify-content-center">
-
-        </div>
-        <div class="col-1 bg- d-none d-md-block" style="width: 10px; height: 50px; border-radius: 0px 0px 5px 5px;">  
-        </div>
-        <div class="col d-flex align-items-center">
-
-        </div>
-    </div>
-
-    <div class="mt-3 mb-1 row text-center">
-        <h2 id="queheestudiado" class="display-5">¿Qué he estudado?</h2>
-    </div>
-    <div class="row" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-        <div class="col d-flex justify-content-center m-3 pt-5 pb-5">
-          <div>
-            <h4>ESTUDIOS REGLADOS</h4>
-            <h6>CFGS de Desarrollo de aplicaciones web</h6>
-            <p>
-              En el toqué las siguientes tecnologías:
-              <ul class="list-unstyled">
-                <li> <i class="fab fa-html5"></i> HTML</li>
-                <li> <i class="fab fa-css3-alt"></i> CSS</li>
-                <li> <i class="fab fa-js"></i> Javascript</li>
-                <li> <i class="fab fa-php"></i> Php</li>
-                <li> <i class="fab fa-laravel"></i> Laravel</li>
-                <li> <i class="fab fa-java"></i> Java</li>
-                <li> <i class="fas fa-database"></i> MySql</li>
-              </ul>
-
-              Además de conceptos teoricos de analisis y diseño.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-1 bg-dark" style="width: 10px; border-radius: 5px 5px 5px 5px;">  
-        </div>
-
-        <div class="col d-flex justify-content-center m-3 pt-5 pb-5">
-          <div>
-            <h4>ESTUDIOS NO REGLADOS</h4>
-            <h6>Udemy</h6>
-            <ul class="list-unstyled">
-              <li>
-                <i class="fab fa-angular"></i> <a href="https://www.udemy.com/certificate/UC-28c09d1e-a4f9-48a4-92c1-2b45661b83cd/" class="text-decoration-none text-dark">Angular 11</a>
-              </li>
-            </ul>
-            <h6>OpenWebinars</h6>
-            <ul class="list-unstyled">
-              <li><i class="fab fa-bootstrap"></i> <a href="https://openwebinars.net/cert/02RG5" class="text-decoration-none text-dark">Bootstrap 4</a></li>
-              <li><i class="fab fa-css3-alt"></i> <a href="https://openwebinars.net/cert/JGg2N" class="text-decoration-none text-dark">Css Flexbox y Grid</a></li>
-              <li><i class="fab fa-css3-alt"></i> <a href="https://openwebinars.net/cert/5ybAb" class="text-decoration-none text-dark"></a>Maquetación web con css</li>
-              <li><i class="fab fa-css3-alt"></i> <a href="https://openwebinars.net/cert/22DwJ" class="text-decoration-none text-dark">Resposive web design</a></li>
-              <li><i class="fab fa-html5"></i> <a href="https://openwebinars.net/cert/QyW6y" class="text-decoration-none text-dark">Html y Css3</a></li>
-              <li><i class="fab fa-java"> </i> <a href="https://openwebinars.net/cert/YwZnk" class="text-decoration-none text-dark">Java 8 Desde 0</a></li>
-              <li><i class="fab fa-js"></i> <a href="https://openwebinars.net/cert/e2MLE" class="text-decoration-none text-dark">Javascript Profesional</a></li>
-            
-            
-            </ul>
-          </div>
-        </div>
-    </div>
-
-    <div class="mt-3 mb-1 row text-center">
-      <h2 id="queexperiencia" class="display-5">¿Qué experiencia tengo?</h2>
-    </div>
-    <div class="row" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-        <div class="col d-none d-md-block m-5">
-            <div class="col d-flex align-items-center justify-content-center h-100">
-              <img src="./assets/logocelnet.png" alt="logocelnet" class="bg-dark rounded img-fluid">
-            </div>
-        </div>
-
-        <div class="col-1 bg-dark d-none d-md-block" style="width: 10px; border-radius: 5px 5px 0px 0px;">  
-        </div>
-
-        <div class="col d-flex align-items-center m-5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-          <div>
-            <h4>Desarrollador de Software</h4>
-            <h6>Prácticas CFGS DAW | 03/2021 - 06/2021</h6>
-            <p>En este puesto desarrollé el proyecto GestCelt, el cual se explica a continuación</p>
-            <a href="#!" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Detalles</a>
-            
-          </div>
-        </div>
-    </div>
-
-    <div class="row">
-      <div class="col d-flex align-items-center justify-content-center">
-
-      </div>
-      <div class="col-1 bg-dark d-none d-md-block" style="width: 10px; height: 50px; border-radius: 0px 0px 0px 0px;">  
-      </div>
-      <div class="col d-flex align-items-center">
-
-      </div>
-  </div>
-
-    <div class="row" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-      
-      <div class="col d-flex align-items-center justify-content-center text-end m-5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-        <div>
-          <h4>HackathonTech</h4>
-          <h6>Junta de Andalucia | 27/11/2020</h6>
-          <p>Hackathon organizado por la Junta de Andalucia orientado a estudiantes de FP y grados universitarios en el cual se dieron diversas charlas y trabajamos en equipo para desarrollar un proyecto con un fin social.
-          </p>
-          <a href="https://blogsaverroes.juntadeandalucia.es/orientadelegacionmalaga/2020/11/17/nueva-edicion-hackathon-emprende-digital/" target="blank" class="btn btn-dark">Detalles</a>
-        </div>
-      </div>
-
-      <div class="col-1 bg-dark d-none d-md-block" style="width: 10px; border-radius: 0px 0px 5px 5px;">  
-      </div>
-
-      <div class="col d-none d-md-block m-5">
-        <div class="col d-flex align-items-center justify-content-center h-100">
-          <img src="./assets/gestcelt/hackathon.JPG" alt="logocelnet" class="bg-dark rounded img-fluid">
-        </div>
-      </div>
-
-    </div>
-
-
-    <div class="mt-3 mb-1 row text-center">
-      <h2 id="quefaltapordecir" class="display-5">¿Qué falta por decir?</h2>
-    </div>
-    
-    <div class="container mb-5">
-      
-      <div class="col d-flex align-content-center justify-content-center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-        <p>Soy de Huelva pero mi movilidad geográfica es total. Dispongo de carnet de conducir y vehículo propio. Me encanta trabajar en equipo y considero que nunca hay que dejar de aprender 
-          y esforzarse. <br>
-          Si quieres contactarme aquí tienes mi <a href="https://www.linkedin.com/in/9jmad3/" target="blank">Linkedin</a> <i class="fab fa-linkedin"></i> . ¡Un saludo!
-      </div>
-    </div>
-
-  </div>
-
-  <footer class="bg-dark text-white text-center p-5">
-    <h6>Actualmente estoy en búsqueda de una oportunidad laboral</h6>
-  </footer>
-
-
-  <!-- Modal -->
-<div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">GestCelt</h5>
-        <button type="button" class="btn" data-dismiss="modal">X</button>
-      </div>
-      <div class="modal-body">
-        <p>
-          GestCelt es una aplicación de gestión interna. <br>
-          Front: Angular 11 <br>
-          Maquetación: AngularMaterial <br>
-          Back: NodeJs <br>
-
-          Cuenta con un sistema de login con opción a deshabilitar el inicio de sesion desde el panel de administración.
-        </p>
-        <img src="./assets/gestcelt/01.jpg" class="img-fluid" alt="">
-        
-        <p>
-          La aplicación es totalmente responsive y utiliza la biblioteca fullcalendar.
-        </p>
-        <img src="./assets/gestcelt/02.jpg" class="img-fluid" alt="">
-        
-        <p>
-          La aplicación puede gestionar todo el stock que entra y sale de la empresa como también el que se asigna a cada técnico.
-        </p>
-        <img src="./assets/gestcelt/03.jpg" class="img-fluid" alt="">
-        
-        <p>
-          Cuenta con diversas pantallas en las cuales ver facilmente que materiales existen y si hay o no stock de estos.
-        </p>
-        <img src="./assets/gestcelt/04.jpg" class="img-fluid" alt="">
-        
-        <p>
-          También se gestionan las ordenes de trabajo de todos los empleados que se encuentran en el sistema así como el stock usuario en esas ordenes.
-        </p>
-        <img src="./assets/gestcelt/05.jpg" class="img-fluid" alt="">
-        
-        <p>
-          Cuenta con distintos perfiles de usuario con sus respectivas restricciones.
-        </p>
-        <img src="./assets/gestcelt/055.jpg" class="img-fluid" alt="">
-        
-        <p>La aplicación está diseñada para poder usarse desde un móvil y que los trabajadores puedan por ejemplo, cerrar sus ordenes de trabajo rápidamente.</p>
-        <img src="./assets/gestcelt/06.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
+    <title>Portfolio JMAD</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body style="background-image: url(./assets/fondo.jpeg);">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#estudios">Estudios y cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <article class="container pt-5">
+            <div class="row text-light">
+                <div class="col-sm-12 col-lg-4 text-center mb-3">
+                    <img src="./assets/selfie.jpeg" alt="Selfie del autor de la página" class="img-fluid rounded-circle shadow" style="height: 300px; object-fit: cover;">
+                </div>
+    
+                <div class="col-sm-12 col-lg-8 text-center text-lg-start">
+                    <h5>¡Hola! Soy José Manuel</h5>
+                    <p>
+                      Un junior recien titulado en el CFGS Desarrollo de aplicaciones web. Me encanta el Front-end porque es en lo que más he profundizado pero sigo profundizando en otros entornos.
+                      Actualmente sigo formandome por mi cuenta en React y mejorando mi inglés.
+                    </p>
+                    <a href="./assets/donwload/Curriculum2021.pdf" target="_blank" download="curriculum.pdf"><button class="btn btn-dark"><i class="fas fa-file-pdf"></i>  Curriculum</button></a>
+        
+        
+                    <div class="pt-3">
+                      <h6>Me puedes encontrar por estos lugares</h6>
+        
+                      <a href="https://www.linkedin.com/in/9jmad3/" target="blank" class="text-decoration-none text-dark"><i class="fab fa-linkedin fa-2x m-1 text-light"></i></a>
+                      <a href="https://github.com/9jmad3" target="blank" class="text-decoration-none text-dark"><i class="fab fa-github fa-2x m-1 text-light"></i></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <div class="bg-light pb-5">
+            <article class="container mt-5 p-5">
+                <h2 class="text-center m-3">Sobre mi</h2>
+                <p>
+                    He desarrollado páginas web con Html, Css y Js, maquetado webs y proyectos de Angular 11 con bootstrap y
+                        desarrollado aplicaciones web con php puro y con Laravel, todo ello dentro del CFGS de desarrollo  de aplicaciones web.
+                    <br>
+                    Además, en las prácticas de empresa de dicha FP, desarrollé una aplicación de gestión de empleados, clientes, almacenes y demás apartados para la empresa usando Angular 11 para la parte front, Angular material para la maquetación de esta y Nodejs para la creación de una Api Rest.
+                </p>
+            </article>
+
+            <article class="container p-5" id="estudios">
+                <h2 class="text-center m-3">Estudios y cursos</h2>
+                <div class="row">
+                    <div id="list" class="list-group col-md-3 m-3 d-none d-md-block mt-5">
+                        <a class="list-group-item" href="#html">Html5 y Css3</a>
+                        <a class="list-group-item" href="#flexbox">Flexbox y Css Grid</a>
+                        <a class="list-group-item" href="#responsive">Responsive Web Design</a>
+                        <a class="list-group-item" href="#bootstrap">Bootstrap 4</a>
+                        <a class="list-group-item" href="#javascript">Javascript</a>
+                        <a class="list-group-item" href="#angular">Angular</a>
+                        <a class="list-group-item" href="#java">Java</a>
+                    </div>
+                    <div data-bs-target="#list" data-bs-offset="0" class="col list-group-personal shadow p-3" tabindex="0">
+                        <h4 id="html"><i class="fab fa-html5"></i> HTML5 Y CSS3</h4>
+                        <h5>Openwebinars</h5>
+                        <p>Curso en el que se enseñan las bases de Html y Css.</p>
+                        <ol>
+                            <li>DOCUMENTOS HTML</li>
+                            <ul>
+                                <li>Evolucion de HTML hasta HTML5</li>
+                                <li>Etiquetas, atributos y comentarios</li> 
+                                <li>Estructura de una página web</li>
+                                <li>Cabecera de una página web</li>
+                            </ul>
+                            <br>
+                            <li>AÑADIENDO CONTENIDO. ETIQUETAS BASICAS</li>
+                            <ul>
+                                <li>Etiquetas relacionadas con texto </li>
+                                <li>Imágenes, enlaces y rutas</li>
+                                <li>Listas</li>
+                                <li>Tablas Bordes de tablas</li>
+                            </ul>
+                            <br>
+                            <li>FORMULARIOS EN HTML</li>
+                            <ul>
+                                <li>Formularios HTML</li>
+                                <li>Tipos de inputs en formularios</li>
+                            </ul>
+                            <br>
+                            <li>MAS ETIQUETAS ACCESIBILIDAD </li>
+                            <ul>
+                                <li>Etiquetas multimedia</li>
+                                <li>Etiquetas semánticas</li>
+                                <li>Otras etiquetas</li>
+                                <li>Accesibilidad en HTML</li>
+                            </ul>
+                            <br>
+                            <li>CSS</li>
+                            <ul>
+                                <li>Evolución de CSS hasta CSS3</li>
+                                <li>Añadir hojas de estilo a nuestro HTML</li>
+                                <li>El modelo de caja. Etiquetas en línea y en bloque</li>
+                                <li>Selectores CSS</li>
+                                <li>Propiedades interesantes</li>
+                                <li>Pseudoselectores</li>
+                                <li>Estilos por defecto y reseteo de propiedades</li>
+                                <li>Prefijos específicos para navegadores</li>
+                                <li>Optimización de CSS</li>
+                                <li>Herramientas relacionadas con CSS</li>
+                            </ul>
+                            
+                        </ol>
+                        <a class="btn btn-dark mb-5" target="_blank" href="https://openwebinars.net/cert/QyW6y">Credecial</a>
+
+                        <h4 id="flexbox"><i class="fab fa-css3-alt"></i> Flexbox y Css Grid</h4>
+                        <h5>Openwebinars</h5>
+                        <p>Curso para ampliar conceptos de css y sus tipos de maquetación.</p>
+                        <ol>
+                            <li>MAQUETANDO CON CONTENEDORES FLEX</li>
+                            <ul>
+                                <li>Elementos de maquetación con CSS Flex</li>
+                                <li>Propiedades en el contenedor flex</li> 
+                                <li>Ejemplo de propiedades del contenedor flex</li>
+                                <li>Elementos flexibles</li>
+                                <li>Elementos flexibles: alineación, justificación y espacio libre</li>
+                            </ul>
+                            <li>MAQUETANDO CON CONTENEDORES GRID</li>
+                            <ul>
+                                <li>Elementos de la maquetación con CSS Grid</li>
+                                <li>Propiedades en el contenedor Grid</li> 
+                                <li>Elementos del Grid: posición y tamaño</li>
+                                <li>Áreas Grid</li>
+                                <li>¿Flex o Grid?</li>
+                            </ul>
+                        </ol>
+                        <a class="btn mb-5 btn-dark" target="_blank" href="https://openwebinars.net/cert/JGg2N">Credecial</a>
+
+                        <h4 id="responsive"><i class="fab fa-css3-alt"></i> Responsive Web Design</h4>
+                        <h5>Openwebinars</h5>
+                        <p>Curso para ampliar conceptos del diseño responsive.</p>
+                        <ol>
+                            <li>DISEÑO RESPONSIVE</li>
+                            <ul>
+                                <li>Viewport</li>
+                                <li>Breakpoints y tipos de diseño</li> 
+                                <li>Media Queries</li>
+                                <li>Patrones responsive</li>
+                                <li>Imágenes responsive</li>
+                                <li>Tablas responsive</li>
+                                <li>Texto responsive</li>
+                            </ul>
+                        </ol>
+                        <a class="btn btn-dark mb-5" target="_blank" href="https://openwebinars.net/cert/22DwJ">Credecial</a>
+
+                        <h4 id="bootstrap"><i class="fab fa-bootstrap"></i> Bootstrap 4</h4>
+                        <h5>Openwebinars</h5>
+                        <p>Curso para aprender y desarrollar prácticas en Bootstrap. </p>
+                        <ol>
+                            <li>MAQUETANDO CON BOOTSTRAP</li>
+                            <ul>
+                                <li>Contenedores BootStrap</li>
+                                <li>El Grid de BootStrap: Las doce columnas</li> 
+                                <li>Breakpoints de BootStrap</li>
+                                <li>Columnas</li>
+                                <li>Saltos de línea en las filas del Layout</li>
+                                <li>El Gutter</li>
+                                <li>Desplazamiento de las columnas</li>
+                                <li>Alineamiento de las filas</li>
+                                <li>Ordenando columnas</li>
+                                <li>Márgenes entre columnas</li>
+                                <li>Anidando filas</li>
+                            </ul>
+                            <br>
+                            <li>CONTENIDO DE LAS PÁGINAS EN BOOTSTRAP </li>
+                            <ul>
+                                <li>Elementos de texto</li>
+                                <li>Imágenes y Figuras</li>
+                                <li>Tablas</li>
+                                <li>Formularios</li>
+                            </ul>
+                            <br>
+                            <li>ELEMENTOS MULTIMEDIA EN NUESTRO LAYOUT</li>
+                            <ul>
+                                <li>El objeto media</li>
+                                <li>Elementos incrustados</li>
+                            </ul>
+                        </ol>
+                        <a class="btn btn-dark mb-5" target="_blank" href="https://openwebinars.net/cert/02RG5">Credecial</a>
+
+                        <h4 id="javascript"><i class="fab fa-js"></i> Javascript</h4>
+                        <h5>Openwebinars</h5>
+                        <p>Curso en el que se profundizan los conocimientos de dicho lenguaje y que realicé para complementar el aprendizaje del CFGS Desarrollo de aplicaciones web. </p>
+                        <ol>
+                            <li>JAVASCRIPT COMO LENGUAJE</li>
+                            <ul>
+                                <li>Javascript como lenguaje</li>
+                                <li>Historia de JavaScript</li> 
+                                <li>Principios básicos del lenguaje</li>
+                            </ul>
+                            <br>
+                            <li>EJECUCIÓN EN JAVASCRIPT</li>
+                            <ul>
+                                <li>Entornos, navegadores y dispositivos</li>
+                                <li>Runtime</li>
+                                <li>Evaluación de código</li>
+                                <li>Scope</li>
+                                <li>Event loop</li>
+                                <li>Garbage Collector</li>
+                            </ul>
+                            <br>
+                            <li>DATOS Y OPERACIONES</li>
+                            <ul>
+                                <li>Primitivas en Javascript</li>
+                                <li>Variables</li>
+                                <li>Estructuras de datos</li>
+                                <li>Operaciones con datos</li>
+                                <li>Expresiones regulares</li>
+                                <li>Funciones</li>
+                                <li>Objetos</li>
+                                <li>Prototipos</li>
+                            </ul>
+                            <br>
+                            <li>CONTROL DE FLUJO</li>
+                            <ul>
+                                <li>Toma de decisiones</li>
+                                <li>Coercion Algorithm</li>
+                                <li>Iteraciones</li>
+                            </ul>
+                            <br>
+                            <li>JAVASCRIPT EN EL NAVEGADOR</li>
+                            <ul>
+                                <li>Cómo funciona un navegador</li>
+                                <li>Web APIs</li>
+                                <li>DOM y eventos</li>
+                                <li>AJAX Y Fetch</li>
+                            </ul>
+                        </ol>
+                        <a class="btn btn-dark mb-5" target="_blank" href="https://openwebinars.net/cert/e2MLE">Credecial</a>
+
+
+                        <h4 id="angular"><i class="fab fa-angular"></i> Angular</h4>
+                        <h5>Udemy</h5>
+                        <p>Curso en el que enseñan el framework desde cero y que realicé para desarrollar la aplicación final del CFGS Desarrollo de aplicaciones web. </p>
+                        <ol>
+                            <li>Typescript</li>
+                            <li>Creación y uso de componentes</li>
+                            <li>Directivas</li>
+                            <li>Angular Routing</li>
+                            <li>Angular Services</li>
+                            <li>Gestión de Formularios</li>
+                            <li>Conexiones HTTP</li>
+                            <li>Angular Pipes</li>
+                            <li>Animaciones Angular</li>
+                            <li>Uso de Mapas</li>
+                            <li>Angular Testing</li>
+                        </ol>
+                        <a class="btn btn-dark mb-5" target="_blank" href="https://www.udemy.com/certificate/UC-28c09d1e-a4f9-48a4-92c1-2b45661b83cd/">Credecial</a>
+
+                        <h4 id="java"><i class="fab fa-java"> </i> Java 8</h4>
+                        <h5>Openwebinars</h5>
+                        <p>Curso en el que se profundizan los conocimientos de dicho lenguaje y que realicé para complementar el aprendizaje del CFGS Desarrollo de aplicaciones web. </p>
+                        <ol>
+                            <li>TIPOS DE DATOS, OPERADORES Y ESTRUCTURAS DE CONTROL</li>
+                            <ul>
+                                <li>Variables</li>
+                                <li>Manipulación de números, caracteres y otros valores</li> 
+                                <li>Estructura de decisión</li>
+                                <li>Estructura de repetición</li>
+                            </ul>
+                            <br>
+                            <li>CLASES Y OBJETOS</li>
+                            <ul>
+                                <li>Orientación de objetos</li>
+                                <li>Los constructores</li>
+                                <li>Getters y setters</li>
+                                <li>Ciclo de vida de un objeto</li>
+                                <li>Uso de clases envoltorio</li>
+                            </ul>
+                            <br>
+                            <li>MANIPULACIÓN Y TRATAMIENTO DE DATOS Conoce Java API Docs</li>
+                            <ul>
+                                <li>Uso de la clase String</li>
+                                <li>Manejo de Arrays</li>
+                            </ul>
+                            <br>
+                            <li>REVISTANDO CLASES Y OBJETOS</li>
+                            <ul>
+                                <li>Argumento de un método y tipos de retorno</li>
+                                <li>Paso de argumento por valor y referencia</li>
+                                <li>Paso de argumento por valor y referencia</li>
+                                <li>Métodos estáticos y variables estáticas</li>
+                                <li>Sobrecarga de métodos y constructores</li>
+                            </ul>
+                            <br>
+                            <li>USO DE HERENCIA</li>
+                            <ul>
+                                <li>Qué es la herencia y los beneficios que aporta Polimorfismo</li>
+                                <li>Uso de super para acceder a un objeto y sus constructores</li>
+                                <li>Clases abstractas e interfaces </li>
+                            </ul>
+                            <br>
+                            <li>MANEJO DE EXCEPCIONES</li>
+                            <ul>
+                                <li>Excepciones y errores</li>
+                                <li>Tratamiento de excepciones</li>
+                                <li>Excepciones más comunes</li>
+                                <li>Lanzamiento y propagación de excepciones</li>
+                            </ul>
+                            <br>
+                            <li>ALGUNAS CLASES DEL API DE JAVA</li>
+                            <ul>
+                                <li>Manipulación de datos con Stringbuilder</li>
+                                <li>Manejo de fechas</li>
+                                <li>Colecciones ArrayList</li>
+                                <li>Introducción a las expresiones lambda</li>
+                            </ul>
+                        </ol>
+                        <a class="btn btn-dark mb-5" target="_blank" href="https://openwebinars.net/cert/YwZnk?r=c7ea6a77c&t=1622787086">Credecial</a>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="container p-5" id="experiencia">
+                <h2 class="text-center m-3">Experiencia</h2>
+                <div class="row">
+                    <div class="col p-3 m-3 shadow"> 
+                        <img src="./assets/experiencia/hackathon.JPG" alt="logohackathon" class="rounded w-100" style="height: 100px; object-fit: cover;">
+                        <h4 class="mt-1">HackathonTech</h4>
+                        <h6>Junta de Andalucia | 27/11/2020</h6>
+                        <p>Hackathon organizado por la Junta de Andalucia orientado a estudiantes de FP y grados universitarios en el cual se impartieron diversas charlas y trabajamos en equipo para desarrollar un proyecto con un fin social.</p>
+                        <a href="https://blogsaverroes.juntadeandalucia.es/orientadelegacionmalaga/2020/11/17/nueva-edicion-hackathon-emprende-digital/" target="blank" class="btn btn-dark w-100" data-toggle="tooltip" data-placement="right" title="Se abrirá en una pestaña nueva">Detalles</a>
+                        
+                        
+                    </div>
+                    <div class="col p-3 m-3 shadow">
+                        <img src="./assets/experiencia/logocelnet.png" alt="logocelnet" class="bg-dark rounded img-fluid w-100" style="height: 100px; object-fit: cover;">
+                        <h4 class="m-1">Desarrollador de Software</h4>
+                        <h6>Prácticas CFGS DAW | 03/2021 - 06/2021</h6>
+                        <p>En este puesto desarrollé el proyecto GestCelt, un proyecto real y desde cero para gestionar el trabajo de los trabajadores de la empresa CELNET. El proyecto se explica a continuación.</p>
+                        <button href="#!" class="btn btn-dark w-100" data-toggle="modal" data-target="#exampleModal" disabled>Detalles</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="container-fluid p-5" id="proyectos">
+                <h2 class="text-center m-3">Proyectos</h2>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-sm-6 col-md-4 col-xxl-2 p-3">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="https://camo.githubusercontent.com/38ce96d4a10381e16a4cb8878eaf60c7057ec63cdf43052f94431e7f0ac2fb49/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f3170383068773535394b6d386670626353332f67697068792e676966" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Gimnasio</h4>
+                              <p class="card-text">
+                                Lógica desarrollada con Php puro e interfaz de usuario maquetada con bootstrap.
+                                Fué uno de los proyectos finales de CFGS DAW en el que se buscaba aprender más a fondo php.
+                              </p>
+                              <a href="https://github.com/9jmad3/Gimnasio" target="blank" class="btn btn-dark">Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-12 col-sm-6 col-md-4 col-xxl-2 p-3">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="https://camo.githubusercontent.com/eb607d90a9391fdc22ed2be59e98c7ec9e3f5291e5b238e8416b1aa3fb2566c5/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f324e7575497a356d5356566c447432376c6a2f67697068792e676966" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Bingo</h4>
+                              <p class="card-text">
+                                Proyecto desarrollado en Angular 11. 
+                                Fue uno de los proyectos finales del CFGS DAW en los que se buscaba afianzar conceptos de Js y en el cual daban libertad de elegir Angular si nos veiamos capaces.
+                              </p>
+                              <a href="https://github.com/9jmad3/bingoangular11" target="blank" class="btn btn-dark">Ver en GitHub</a>
+                            </div>
+                          </div>
+                    </div>
+            
+                      
+                    <div class="col-12 col-sm-6 col-md-4 col-xxl-2 p-3">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="https://camo.githubusercontent.com/1cf4493be06276928bd6f0a4ce7f23549723b55b75aa077a684bcc55c99b2bc1/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f74527631487351383637727a764263324d6f2f67697068792e676966" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">Foro</h4>
+                              <p class="card-text">
+                                Fué el proyecto más amplio dentro del CFGS DAW.
+                                Está desarrollado en Laravel y maquetado con bootstrap. Cuenta con llamadas a API externa, gestión de usuarios, roles...
+                              </p>
+                              <a href="https://github.com/9jmad3/foroDAW" target="blank" class="btn btn-dark">Ver en GitHub</a>
+                            </div>
+                          </div>
+                    </div>
+            
+                      
+                    <div class="col-12 col-sm-6 col-md-6 col-xxl-2 p-3">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./assets/proyectos/gestcelt.JPG" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title">GestCelt</h4>
+                              <p class="card-text">
+                                Proyecto final del CFGS DAW desarrollado en Angular 11 y Nodejs.
+                                Debido a que fué un proyecto real para la empresa en la que realicé las prácticas no puedo facilitar el codigo pero si quieres saber más sobre este proyecto sigue leyendo.
+                              </p>
+                              <button href="#!" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal" disabled>Detalles</button>
+                            </div>
+                          </div>
+                    </div>
+            
+                    <div class="col-12 col-sm-12 col-md-6 col-xxl-2 p-3">
+                      <div class="card h-100">
+                          <img class="card-img-top" src="./assets/proyectos/cryptoprecios.JPG" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="card-title">CryptoPrecio</h4>
+                            <p class="card-text">
+                              App con precios actualizados de varias cryptos y que tiene como características: Petición Api, componentes angular material, responsive, bootstrap y desplegado en Heroku.
+                            </p>
+                            <div class="d-flex">
+                              <a href="https://github.com/9jmad3/cryptoPrecios" target="blank" class="btn btn-dark m-1">ver en GitHub</a>
+                              <a href="https://cryptoprecios.herokuapp.com/" target="blank" class="btn btn-dark m-1">Ver proyecto</a>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+            </article>
+        </div>
+
+        <footer class="bg-dark text-light p-5 text-center" id="contacto">
+            <p>Actualmente me encuentro en búsqueda activa de empleo, mi movilidad geográfica es total e inmediata. Si te ha resultado interesante mi portfolio puedes contactar conmigo por linkedin y/o email.
+                <br>Un saludo y que tengas un buen día. </p>
+            <ul>
+                <li>josemanuelalejandrod@gmail.com</li>
+                <li><i class="fab fa-linkedin mx-3"></i><a href="https://www.linkedin.com/in/9jmad3/" class="text-light" target="_blank"> 9jmad3</a></li>
+                <li><i class="fab fa-github mx-3"></i> <a href="https://github.com/9jmad3" class="text-light" target="_blank"> 9jmad3</a></li>
+            </ul>
+        </footer>
+    </main>
+
+
+    <!-- Button Top -->
+    <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
 </body>
 </html>
